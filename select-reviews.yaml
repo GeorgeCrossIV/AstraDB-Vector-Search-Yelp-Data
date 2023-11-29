@@ -11,6 +11,6 @@ blocks:
     - select-read: |
         select * from yelp.review order by minilm_description_embedding ann of {embedding} limit 100;
       bindings:
-        embedding:  HashedLineToString('embeddings.txt')
+        embedding: HdfFileToFloatList("vectors.hdf5", "vectors"); ToCqlVector();
         tags:
           name: read
