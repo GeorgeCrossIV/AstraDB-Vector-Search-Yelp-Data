@@ -1,6 +1,9 @@
 # AstraDB-Vector-Search-Yelp-Data
 Notebook that provides an example of loading and embedding Yelp review data into Astra DB Vector Search database
 
+## Examples use a keyspace named yelp and table named review
+- the create-yelp.review-table.cql script contains CQL to create the review table
+
 ## Run performance tests against the yelp.review table via NoSqlBench
 Required files:
 - run.sh -> a script that runs the NoSqlBench script
