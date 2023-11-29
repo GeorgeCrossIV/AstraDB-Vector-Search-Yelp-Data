@@ -1,0 +1,16 @@
+---
+blocks:
+
+  - name: select-reviews
+    tags:
+      phase: select-reviews
+      type: read
+    params:
+      ratio: 1
+    statements:
+    - select-read: |
+        select * from yelp.review order by minilm_description_embedding ann of {embedding} limit 100;
+      bindings:
+        embedding:  HashedLineToString('embeddings.txt')
+        tags:
+          name: read
