@@ -24,7 +24,7 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - Run the embed.py script to embed the Yelp reviews.
 - Run the move_files.py script to distribute the csv files into manageable upload chunks for the dsbulk tool.
 - Run the load-all-yelp-data.sh to load the data via dsbulk.
-- Note: This process is very process and time consuming. 
+- Note: This process is very process intensive and time consuming. 
 
 ### Performance Testing
 - Employ [NoSql Bench](https://github.com/nosqlbench/nosqlbench) for performance metrics of the Yelp.Review table.
