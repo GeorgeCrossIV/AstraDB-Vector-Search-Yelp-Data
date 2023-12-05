@@ -1,6 +1,5 @@
 ---
 blocks:
-
   - name: select-reviews
     tags:
       phase: select-reviews
