@@ -15,7 +15,7 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - Be sure to upload your secure connect bundle in Colab.
 
 ### Large-scale Embedding
-- Embed over 7 million Yelp reviews using a Hugging Face model.
+- Embed over 7 million Yelp reviews using a Hugging Face model (sentence-transformers/all-MiniLM-L6-v2).
 - Load data into Astra DB with the dsbulk tool.
 
 #### Steps
