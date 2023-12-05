@@ -5,7 +5,7 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 ## Activities Covered
 
 ### Getting Started
-- Tools for using Astra DB.
+- Get started quickly by connecting to Astra DB to embed and load a subset of Yelp review data.
 - Sample Yelp review data. [Yelp review data download](https://www.yelp.com/dataset).
 - Google Colab notebook for embedding, loading, and querying data.
 
