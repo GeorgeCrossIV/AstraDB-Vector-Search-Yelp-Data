@@ -36,7 +36,7 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - `move_files.py`: Organizes csv files for efficient data loading.
 - `load-yelp-data.sh`: Loads csv files into Astra DB.
 - `load-all-yelp-data.sh`: Bulk load script for entire dataset.
-- 'env.sample': sample .env file. Save as .env
+- `env.sample`: sample .env file. Save as .env
 
 ### Performance Testing
 - `run.sh`: Runs NoSqlBench script.
