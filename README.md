@@ -9,19 +9,30 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - Sample Yelp review data. [Yelp review data download](https://www.yelp.com/dataset).
 - Google Colab notebook for embedding, loading, and querying data.
 
-Start by opening the Vector_Search_Yelp_Data.ipynb notebook. Click the Open in Colab button and follow the instructions in the notebook. Be sure to upload your secure connect bundle in Colab.
+#### Steps
+- Start by opening the Vector_Search_Yelp_Data.ipynb notebook.
+- Click the Open in Colab button and follow the instructions in the notebook.
+- Be sure to upload your secure connect bundle in Colab.
 
 ### Large-scale Embedding
 - Embed over 7 million Yelp reviews using a Hugging Face model.
 - Load data into Astra DB with the dsbulk tool.
 
-Create the .env file from the .env.sample file and update the configuration file. Download the Yelp review dataset. Run the embed.py script to embed the Yelp reviews. Run the move_files.py script to distribute the csv files into manageable upload chunks for the dsbulk tool. Run the load-all-yelp-data.sh to load the data via dsbulk. This process is very process and time consuming. 
+#### Steps
+- Create the .env file from the .env.sample file and update the configuration file.
+- Download the Yelp review dataset.
+- Run the embed.py script to embed the Yelp reviews.
+- Run the move_files.py script to distribute the csv files into manageable upload chunks for the dsbulk tool.
+- Run the load-all-yelp-data.sh to load the data via dsbulk.
+- Note: This process is very process and time consuming. 
 
 ### Performance Testing
 - Employ [NoSql Bench](https://github.com/nosqlbench/nosqlbench) for performance metrics of the Yelp.Review table.
 - Use the ANN function for querying.
 
-Download the sample vectors.hdf5 file. Run the run.sh script to start the NoSql Bench test
+#### Steps
+- Download the sample vectors.hdf5 file.
+- Run the run.sh script to start the NoSql Bench test
 
 ## Prerequisites
 - Set up an [Astra DB](https://www.datastax.com/products/datastax-astra) database.
