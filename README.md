@@ -2,6 +2,14 @@
 
 This repository offers a comprehensive guide for embedding and querying Yelp review data using [Astra DB](https://www.datastax.com/products/datastax-astra), a vector database. It's designed to work with a large dataset of over seven million Yelp reviews, leveraging Hugging Face models for embedding and tools like dsbulk and [NoSql Bench](https://github.com/nosqlbench/nosqlbench) for data loading and performance testing.
 
+## Prerequisites
+- Set up an [Astra DB](https://www.datastax.com/products/datastax-astra) database.
+- Create a keyspace (named "yelp" in examples).
+- Use the provided CQL script for creating the review table.
+- Download a secure connect bundle.
+- Generate an application token (record clientId and secret).
+- Obtain a Hugging Face token.
+
 ## Activities Covered
 
 ### Getting Started
@@ -33,14 +41,6 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 #### Steps
 - Download the sample vectors.hdf5 file.
 - Run the run.sh script to start the NoSql Bench test
-
-## Prerequisites
-- Set up an [Astra DB](https://www.datastax.com/products/datastax-astra) database.
-- Create a keyspace (named "yelp" in examples).
-- Use the provided CQL script for creating the review table.
-- Download a secure connect bundle.
-- Generate an application token (record clientId and secret).
-- Obtain a Hugging Face token.
 
 ## File Descriptions
 
