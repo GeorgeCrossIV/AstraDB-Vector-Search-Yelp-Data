@@ -1,12 +1,12 @@
 # Astra DB/Vector Search with Yelp Review Data
 
-This repository offers a comprehensive guide for embedding and querying Yelp review data using Astra DB, a vector database. It's designed to work with a large dataset of over seven million Yelp reviews, leveraging Hugging Face models for embedding and tools like dsbulk and NoSql Bench for data loading and performance testing.
+This repository offers a comprehensive guide for embedding and querying Yelp review data using [Astra DB](https://www.datastax.com/products/datastax-astra), a vector database. It's designed to work with a large dataset of over seven million Yelp reviews, leveraging Hugging Face models for embedding and tools like dsbulk and [NoSql Bench](https://github.com/nosqlbench/nosqlbench) for data loading and performance testing.
 
 ## Activities Covered
 
 ### Getting Started
 - Tools for using Astra DB.
-- Sample Yelp review data.
+- Sample Yelp review data. [Yelp review data download](https://www.yelp.com/dataset).
 - Google Colab notebook for embedding, loading, and querying data.
 
 ### Large-scale Embedding
@@ -14,11 +14,11 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - Load data into Astra DB with the dsbulk tool.
 
 ### Performance Testing
-- Employ NoSql Bench for performance metrics of the Yelp.Review table.
+- Employ [NoSql Bench](https://github.com/nosqlbench/nosqlbench) for performance metrics of the Yelp.Review table.
 - Use the ANN function for querying.
 
 ## Prerequisites
-- Set up an Astra DB database.
+- Set up an [Astra DB](https://www.datastax.com/products/datastax-astra) database.
 - Create a keyspace (named "yelp" in examples).
 - Use the provided CQL script for creating the review table.
 - Download a secure connect bundle.
