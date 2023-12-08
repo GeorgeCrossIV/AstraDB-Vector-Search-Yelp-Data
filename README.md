@@ -9,6 +9,7 @@ This repository offers a comprehensive guide for embedding and querying Yelp rev
 - Download a secure connect bundle.
 - Generate an application token (record clientId and secret).
 - Obtain a Hugging Face token.
+- The preview version of NoSql Bench [Preview 5.17.9-preview](https://github.com/nosqlbench/nosqlbench/releases/tag/5.17.9-preview). Grab the executable or jar file.
 
 ## Activities Covered
 
